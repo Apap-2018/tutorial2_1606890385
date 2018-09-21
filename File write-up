@@ -1,0 +1,35 @@
+Latihan Project Viral
+1.	a. Ya, terjadi compile error
+	b. Yang terjadi adalah error, karena requestmapping diganti menjadi
+	viral2jari sementara tidak ada file .html bernama viral2jari.
+	c. Mengarahkan ke file html yang bernama viral.
+	
+2.	a. Tidak terjadi compile error
+	b. tidak terdapat error, karena request mapping nya tetap ke viral, jadi nama methodnya tidak yang diganti tidak
+	akan menganti file html tujuan.
+
+3.	a. Terjadi error
+	b. Karena kita mengganti return nya menjadi viral2jari, dan kita
+	tidak mempunyai file .html viral2jari
+	c. untuk memanggil kelas View( html)
+	
+Latihan Request Parameter
+
+1.	In My Feeling tidak pernah muncul karena tidak pernah menjadi request yang kita ketik saat
+	menjalankan localhost.
+	
+2.	Hasil nya adalah error, karena tidak ada file html viral/challenge
+
+3.	a. Hasilnya error karena tidak terdapat request parameter name
+	b. penambahan parameter required = false membuat penambahan parameter name menjadi tidak wajib, dan program bisa
+	dijalankan tanpa parameter name.
+	c. mengubah method akan membuat penambahan parameter name menjadi tidak wajib dan, membuat nilai 
+	default name menjadi kiki
+	
+Latihan Path Variable
+1.	Hasilnya error
+2.	Hasilnya tidak error, dan parameter name menjadi KB, karena saat dijalankan tanpa
+	parameter name, maka akan masuk ke bagian else method dimana name akan di assign menjadi KB.
+3.	Hasilnya tidak error, karena kita telah memasukan name yaitu kiki, sehingga akan masuk ke if pada method challengePath
+	yang akan mengambil name dari request url kita ke dalam method untuk menjadi name yang kemudian akan ditampilkan saat method me return ke html.
+	
