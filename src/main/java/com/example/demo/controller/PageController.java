@@ -39,12 +39,10 @@ public class PageController {
 		String hasil = "hm";
 		String res ="";
 		if(a>1) {
-			System.out.println("a>1");
 			for(int i=1;i<a;i++) {
 				hasil+="m";
 			}
 			if(b>1) {
-				System.out.println("masoook");
 				for (int j=1;j<=b;j++) {
 					res += hasil+" ";
 				}
@@ -54,7 +52,6 @@ public class PageController {
 			}
 		}
 		else if(b>1) {
-			System.out.println("b>1");
 			if(a<=1){
 				for (int j=1;j<=b;j++) {
 					res += hasil+" ";
